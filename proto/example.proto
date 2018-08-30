@@ -1,0 +1,17 @@
+syntax = "proto3";
+package example;
+
+service PhoneTracker {
+  rpc AddPhone(PhoneReq) returns (PhoneResp) {}
+}
+
+message PhoneReq {
+  string imei = 1;
+  string modelname = 2;
+  string unlockcode = 3;
+}
+message PhoneResp {
+  string imei = 1;
+  string modelname = 2;
+  string unlockcode = 3;
+}

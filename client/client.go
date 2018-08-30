@@ -5,5 +5,5 @@ import (
 )
 
 func main() {
-	fmt.Println("microservices begin")
+	fmt.Println("starting client")
 }
